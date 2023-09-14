@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music animation</title>
+    <style>
+
+body{
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.875);
+}
+
+.music{
+    font-size: 20px;
+    height: 50em;
+    position: absolute;
+}
+.music1{
+    position: absolute;
+    top: 20em;
+    left: 10em;
+    width: 1em;
+    height: 5em;
+    padding: 20px;
+    background-color: red ;  animation-name: musiceq;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+    
+}
+.music2{
+    position: absolute;
+    margin-left: 1.7em;
+    top: 20em;
+    left: 10em;
+    width: 1em;
+    height: 5em;
+    padding: 20px;
+    background-color: rgb(232, 42, 74) ;
+    animation-name: musiceq;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+    
+}
+.music3{
+    position: absolute;
+    margin-left: 3.4em;
+    top: 20em;
+    left: 10em;
+    width: 1em;
+    height: 5em;
+    padding: 20px;
+    background-color: red ;
+    animation-name: musiceq;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+    
+}
+.music4{
+    position: absolute;
+    margin-left: 5em;
+    top: 20em;
+    left: 10em;
+    width: 1em;
+    height: 5em;
+    padding: 20px;
+    background-color: rgb(232, 42, 74) ;
+    animation-name: musiceq;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+    
+}
+.music5{
+    position: absolute;
+    margin-left: 6.7em;
+    top: 20em;
+    left: 10em;
+    width: 1em;
+    height: 5em;
+    padding: 20px;
+    background-color: red;
+   animation-name: musiceq;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+
+    
+}
+
+@keyframes musiceq{
+   10% { background-color: rgba(255, 0, 43, 0.541); margin-top: 10px; transform: rotateY(25deg); }
+   25% { background-color: rgba(56, 208, 89, 0.541); margin-top: 25px; transform: rotateY(90deg); }
+   50%{ background-color: rgba(123, 12, 29, 0.541); margin-top: 50px; transform: rotateY(180deg); }
+   100%{background-color: rgba(136, 226, 251, 0.541); margin-top: 25px; transform: rotateY(360deg); }
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="music">
+        <div class="music1"></div>
+        <div class="music2"></div>
+        <div class="music3"></div>
+        <div class="music4"></div>
+        <div class="music5"></div>
+       
+    </div>
+    
+</body>
+</html>

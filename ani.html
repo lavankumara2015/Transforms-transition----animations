@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Tra A</title>
+
+    <style>
+        #lavan{
+
+            width:20% ;
+            height: 100px;
+            background-color: aqua;
+            transform: translate(50px,20px); 
+             transform: rotate(90deg); 
+              transform: scale(0.8,0.8);  
+             transform: skew(5deg,2deg);
+             transition: all 2s ease-in-out 1s;
+
+        }
+        #lavan:hover{
+            background-color: rgb(114, 113, 125);
+            width: 50%;
+            
+
+        }
+        #kumar{
+
+            width:20% ;
+            height: 130px;
+            background-color: rgb(213, 58, 159);
+          transform: translate(30px,30px);
+          transform: rotateZ(65deg);
+        
+
+        }
+        @keyframes allchanging{
+            0% { background-color: black;}
+            10%{color: rgb(228, 221, 235);}
+            25%{background-color: chartreuse;}
+            50%{background-color: chocolate;}
+            100%{background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/IMG_logo_%282017%29.svg);
+            }
+        }
+        #kumar:hover{
+background-color: rgb(167, 52, 52);
+}
+        #adich{
+            width:22% ;
+            height: 100px;
+            background-color: rgb(31, 171, 70);
+            margin-left: 5%;
+            padding: 15px;
+
+        }
+        #adich:hover{
+background-color: rgb(197, 78, 78);
+}
+    </style>
+</head>
+<body>
+ 
+    <div>
+    
+        <h1 id="lavan"> Lavan</h1><br>
+
+        <h1 id="kumar">Kumar</h1><br>
+        
+        <h1 id="adich">Adicherla</h1>
+
+    </div>
+
+
+</body>
+</html>
